@@ -4,9 +4,10 @@
   <img src="img/cookiemonster128.png"/>
 </p>
 Cookie Monster is a Chrome extension that blocks annoying 'accept cookies' popups.  
-  
 
-![Example](img/example.png)
+<p align="center">
+  <img src="img/example.png"/>
+</p>
 
 Add Cookie Monster at the Chrome Web Store here.
 
