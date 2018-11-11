@@ -7,6 +7,9 @@
     "32": "img/cookiemonster32.png",
     "128": "img/cookiemonster128.png"
   },
+  "browser_action": {
+    "default_icon": "img/cookiemonster32.png"
+  },
   "permissions": ["activeTab"],
   "manifest_version": 2,
   "content_scripts": [
