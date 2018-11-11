@@ -6,7 +6,6 @@
 Cookie Monster is a Chrome extension that blocks annoying 'accept cookies' popups.  
 <br>
 <br>
-<br>
 <p align="center">
   <img src="img/example.png"/>
 </p>
