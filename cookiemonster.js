@@ -1,10 +1,9 @@
 window.addEventListener("load", block, false);
 
 function block() {
-  console.log("running...");
   let divs = document.getElementsByTagName("div");
   let ids = ["optanon", "didomi", "cookie", "privacy"];
-  let cookieWords = ["cookie", "Cookie"];
+  let cookieWords = ["cookie", "Cookie", "Privacy Policy"];
   let agreeWords = [
     "accept",
     "Accept",
@@ -17,7 +16,8 @@ function block() {
     "OK",
     "Yes",
     "Allow",
-    "allow"
+    "allow",
+    "Sign up"
   ];
   for (let d of divs) {
     if (
@@ -28,11 +28,6 @@ function block() {
       !d.outerHTML.includes("<input") &
       (d.textContent.length < 2000)
     ) {
-      console.log(d);
-      console.log(d.id);
-      console.log(d.textContent.length);
-      console.log(d.textContent);
-      console.log(d.outerHTML);
       d.remove();
     }
   }
